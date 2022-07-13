@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include etms_theme_one *.css
+recursive-include etms_theme_one *.csv
+recursive-include etms_theme_one *.html
+recursive-include etms_theme_one *.ico
+recursive-include etms_theme_one *.js
+recursive-include etms_theme_one *.json
+recursive-include etms_theme_one *.md
+recursive-include etms_theme_one *.png
+recursive-include etms_theme_one *.py
+recursive-include etms_theme_one *.svg
+recursive-include etms_theme_one *.txt
+recursive-exclude etms_theme_one *.pyc
