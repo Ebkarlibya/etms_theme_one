@@ -41,7 +41,7 @@ app_license = "MIT"
 
 # application home page (will override Website Settings)
 home_page = "index"
-base_template = "templates/layout_one.html"
+# base_template = "templates/layout_one.html"
 
 
 # website user home page (by Role)
