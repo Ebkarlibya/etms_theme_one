@@ -15,7 +15,7 @@
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           {% if frappe.session.user == "Guest" %}
-            <li><a class="nav-link scrollto" href="/mylogin">Login</a></li>
+            <li><a class="nav-link scrollto" href="/mylogin" target="_blank">Login</a></li>
           {% else %}
             <li><a class="nav-link scrollto" onclick="return logout()">Logout</a></li>
 
